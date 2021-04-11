@@ -1,4 +1,5 @@
-# A Basic Secure Login Implementation
+# A Basic Secure Login Implementation 
+[![CodeFactor](https://www.codefactor.io/repository/github/sigmanificient/secure_login/badge)](https://www.codefactor.io/repository/github/sigmanificient/secure_login)
 - Hashed & Salted password
 - No SQL injection possible
 - Prevent XSS attacks from the login form
