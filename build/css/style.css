@@ -38,7 +38,7 @@ input[type="submit"] {
     width: clamp(50px, 20vw, 125px);
 }
 
-input[type="submit"]:focus, input[type="submit"]:focus {
+input[type="submit"]:focus {
     box-shadow: 0 0 32px #fff;
     outline: none;
 
