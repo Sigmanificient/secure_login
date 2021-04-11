@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    background-color: #000;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+input {
+    margin: clamp(5px, 2vh, 25px);
+}
+
+input[type="text"], input[type="password"] {
+    width: clamp(100px, 20vw, 250px);
+    background-color: #000;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    padding: 10px;
+    color: #fff;
+}
+
+input[type="text"]:focus, input[type="password"]:focus {
+    box-shadow: 0 0 0 3px #fff;
+}
+
+input[type="submit"] {
+    border: none;
+    padding: 5px;
+    border-radius: 50px;
+    background-color: #fff;
+    width: clamp(50px, 20vw, 125px);
+}
+
+input[type="submit"]:focus, input[type="submit"]:focus {
+    box-shadow: 0 0 32px #fff;
+    outline: none;
+
+}
