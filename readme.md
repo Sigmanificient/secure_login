@@ -3,7 +3,7 @@
 - Hashed & Salted password  ( only hashed in ShA-512 for now )
 - No SQL injection possible
 - Prevent XSS attacks from the login form
-- Ban IP after too many failed attempts (3 by default)
+- Block account after too many failed attempts (3 by default)
 - Session & Token to prevent CSRF attacks later on
 
 ## Warning !
