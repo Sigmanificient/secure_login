@@ -1,7 +1,3 @@
-*.* text="auto"
-
 *.sql linguist-detectable=true
 *.sql linguist-language=sql
-
-*.php linguist-detectable=true
 *.php linguist-language=php
