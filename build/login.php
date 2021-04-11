@@ -5,7 +5,7 @@
 </head>
 <body>
 
-<form method="post">
+<form method="post" action="includes/process_login.php">
     <label for="username">
         <input id="username" name="username" type="text" required>
     </label>
