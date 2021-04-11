@@ -5,3 +5,5 @@
 - Ban IP after too many failed attempts (3 by default)
 - Session & Token to prevent CSRF attacks later on
 
+## Warning !
+### Dont use this without SSL, elsewhere all credentials would be sent in clear. 
