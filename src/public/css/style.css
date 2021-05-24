@@ -1,12 +1,16 @@
 body {
-    color: white;
     margin: 0;
+    color: white;
     height: 100vh;
-    display: flex;
     background-color: #000;
-    justify-content: center;
-    align-items: center;
 }
+
+main {
+    display: grid;
+    place-content: center;
+    text-align: center;
+}
+
 
 form {
     display: flex;
@@ -52,4 +56,4 @@ footer {
     display: grid;
     place-content: center;
     text-align: center;
- }
+}
