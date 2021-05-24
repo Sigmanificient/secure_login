@@ -1,5 +1,7 @@
-drop database if exists "secure_login";
-create database if not exists "secure_login";
+drop database if exists secure_login;
+create database if not exists secure_login;
+
+use secure_login;
 
 create table users
 (
