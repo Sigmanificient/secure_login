@@ -1,4 +1,5 @@
 body {
+    color: white;
     margin: 0;
     height: 100vh;
     display: flex;
@@ -30,15 +31,15 @@ input[type="text"]:focus, input[type="password"]:focus {
     box-shadow: 0 0 0 3px #fff;
 }
 
-input[type="submit"] {
+a, input[type="submit"] {
     border: none;
-    padding: 5px;
-    border-radius: 50px;
+    padding: 10px 20px;
+    border-radius: 5px;
     background-color: #fff;
     width: clamp(50px, 20vw, 125px);
 }
 
-input[type="submit"]:focus {
+a:hover, input[type="submit"]:hover {
     box-shadow: 0 0 32px #fff;
     outline: none;
 
