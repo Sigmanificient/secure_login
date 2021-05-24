@@ -3,6 +3,9 @@ body {
     color: white;
     height: 100vh;
     background-color: #000;
+    display: grid;
+    place-content: center;
+    text-align: center;
 }
 
 main {
@@ -50,6 +53,7 @@ a:hover, input[type="submit"]:hover {
 }
 
 footer {
+    width: 100%;
     position: absolute;
     bottom: 0;
 
