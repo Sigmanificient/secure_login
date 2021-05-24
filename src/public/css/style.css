@@ -38,6 +38,11 @@ input[type="text"]:focus, input[type="password"]:focus {
     box-shadow: 0 0 0 3px #fff;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
 a, input[type="submit"] {
     border: none;
     padding: 10px 20px;
