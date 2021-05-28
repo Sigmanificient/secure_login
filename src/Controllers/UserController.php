@@ -23,6 +23,12 @@ class UserController extends Controller
             die();
         }
 
+        $identifiant = htmlspecialchars($_POST['username']);
+        $password = htmlspecialchars($_POST['password']);
 
+        if (empty($identifiant) || empty($password)) {
+            header('Location: ../login.php?error=empty');
+            die();
+        }
     }
 }
