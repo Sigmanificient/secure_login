@@ -13,5 +13,16 @@ class UserController extends Controller
     public function login()
     {
         $this::render('login');
+
+    }
+
+    public function process_login()
+    {
+        if (!isset($_POST['username']) || !isset($_POST['password'])) {
+            header('Location: ../login.php?error=unset');
+            die();
+        }
+
+
     }
 }
