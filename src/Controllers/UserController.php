@@ -9,7 +9,6 @@ class UserController extends Controller
         header('Location: /User/login');
     }
 
-
     public function login()
     {
         $this::render('login');
