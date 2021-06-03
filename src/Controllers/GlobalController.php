@@ -7,6 +7,6 @@ class GlobalController extends Controller
 
     public function default()
     {
-        $this::render('landing');
+        $this->render('landing');
     }
 }

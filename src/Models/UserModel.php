@@ -20,7 +20,7 @@ class UserModel extends Model
         return !is_bool($result);
     }
 
-    public function get_by_uid($uid)
+    public function get_by_uid($uid): ?int
     {
         $query = '
             select id

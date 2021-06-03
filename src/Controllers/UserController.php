@@ -22,14 +22,14 @@ class UserController extends Controller
         $error = $_SESSION['error'] ?? false;
         unset($_SESSION['error']);
 
-        $this::render('login', ['error' => $error]);
+        $this->render('login', ['error' => $error]);
     }
 
     public function process_login()
     {
         if (!isset($_POST['username']) || !isset($_POST['password'])) {
             $_SESSION['error'] = 'empty';
-            header('Location: ../login.php');
+            header('Location:' . SITE . '/User/login');
             return;
         }
 
