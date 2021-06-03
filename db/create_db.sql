@@ -17,7 +17,7 @@ create table connexions
     id int auto_increment,
     user_id int null,
     conn_time datetime null,
-    logged bool null,
+    logged boolean null,
     constraint connexions_pk
         primary key (id),
     constraint connexions_users_id_fk
