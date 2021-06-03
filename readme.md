@@ -3,8 +3,9 @@
 - Hashed & Salted password  ( only hashed in ShA-512 for now )
 - No SQL injection possible
 - Prevent XSS attacks from the login form
-- Block account after too many failed attempts (3 by default)
-- Session & Token to prevent CSRF attacks later on
+
+## Try it out :
+### Demo `J-dW>9+~aVk@xQ6S,NP8=AaG:`
 
 ## Warning !
-### Dont use this without SSL, elsewhere all credentials would be sent in clear. 
+### Don't use this without SSL, elsewhere all credentials would be sent in clear.
