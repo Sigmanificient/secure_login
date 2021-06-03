@@ -1,4 +1,4 @@
-<form method="post" action="../public/includes/process_login.php">
+<form method="post" action="<?= SITE . '/User/process_login' ?> ">
     <label for="username">
         <input id="username" name="username" type="text" required>
     </label>
