@@ -1,6 +1,4 @@
-<?php
-/* @var array $params */
-?>
+<?php /* @var array $params */?>
 
 <form method="post" action="<?= SITE . '/User/process_login' ?> ">
     <label for="username">

@@ -49,6 +49,6 @@ class UserController extends Controller
         }
 
         $_SESSION['user'] = ['id' => $this->_user_model->get_by_uid($identifiant)];
-        var_dump($_SESSION['user']);
+        header('Location: ' . SITE . '/App');
     }
 }
