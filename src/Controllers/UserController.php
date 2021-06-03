@@ -26,21 +26,24 @@ class UserController extends Controller
     public function process_login()
     {
         if (!isset($_POST['username']) || !isset($_POST['password'])) {
+            $_SESSION['error'] = 'empty';
             header('Location: ../login.php');
-            die();
+            return;
         }
 
         $identifiant = htmlspecialchars($_POST['username']);
         $password = htmlspecialchars($_POST['password']);
 
         if (empty($identifiant) || empty($password)) {
+            $_SESSION['error'] = 'empty';
             header('Location:' . SITE . '/User/login');
-            die();
+            return;
         }
 
         if (!$this->_user_model->validate($identifiant, hash('sha512', $password))) {
+            $_SESSION['error'] = 'empty';
             header('Location:' . SITE . '/User/login');
-            die();
+            return;
         }
 
         echo 'Connected !';
