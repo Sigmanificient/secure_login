@@ -13,8 +13,10 @@ class UserModel extends Model
             and authentication_string = :authentication_string
         ';
 
-        return $this->_conn->execute(
+        $result = $this->_conn->execute(
             $query, ['uid' => $uid, 'authentication_string' => $authentication_string]
-        )->fetch()['id'] ?: null;
+        )->fetch();
+
+        return is_array($result) ? $result['id'] : null;
     }
 }
