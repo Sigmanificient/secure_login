@@ -48,6 +48,7 @@ class UserController extends Controller
             return;
         }
 
-        echo 'Connected !';
+        $_SESSION['user'] = ['id' => $this->_user_model->get_by_uid($identifiant)];
+        var_dump($_SESSION['user']);
     }
 }
