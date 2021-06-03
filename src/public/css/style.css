@@ -16,7 +16,7 @@ body {
 
 main {
     display: grid;
-    place-content: center;
+    place-items: center;
     text-align: center;
 }
 
@@ -43,7 +43,7 @@ input[type="text"]:focus, input[type="password"]:focus {
 
 a {
     text-decoration: none;
-    color: var(--color-primary);
+    color: var(--color-background);
 }
 
 a, input[type="submit"] {
