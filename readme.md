@@ -1,5 +1,6 @@
 # A Basic Secure Login Implementation 
 
+[![CodeFactor](https://www.codefactor.io/repository/github/sigmanificient/secure_login/badge)](https://www.codefactor.io/repository/github/sigmanificient/secure_login)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/Sigmanificient/secure_login)
 ![GitHub repo size](https://img.shields.io/github/repo-size/Sigmanificient/secure_login)
 ![Lines of code](https://img.shields.io/tokei/lines/github/Sigmanificient/secure_login)
